@@ -8,8 +8,8 @@ start_time = time.time()
 logs = pd.read_excel('logs.xlsx')
 
 # Replace with your Binance API key and secret
-api_key = 'ydWF2ZZvEJMhzXMxxBcwOakR7gHdogecUqcUGluRPrxmiCndUyMBFpRFZo84Fev6'
-secret_key = 'QDMSJu4XwfkRdUDiZf7PV8UhAlWQXhJAi3Y3neffHdpgsPZaZH18umo963fLVgkU'
+api_key = 'xxxxx'
+secret_key = 'xxxxx'
 
 # Initialize the Binance client
 client = Client(api_key, secret_key)
