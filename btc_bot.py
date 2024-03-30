@@ -26,16 +26,16 @@ sma100 = btc_data.iloc[-1,5]
 open = btc_data.iloc[-1,0]
 
 def telegram_bot(text_message):
-    token = '5846641193:AAG5X9vFKV2e4QYZnLGkWARY-e7VIZ8SX0w'
-    chat_id = '842155342'
+    token = 'XXXXXX'
+    chat_id = 'XXXXX'
     url_req = 'https://api.telegram.org/bot' + token + '/sendMessage?chat_id=' + chat_id + '&text=' + str(text_message)
     response = requests.get(url_req)
     return response.json()
 
 
 # Replace with your Binance API key and secret
-api_key = 'ydWF2ZZvEJMhzXMxxBcwOakR7gHdogecUqcUGluRPrxmiCndUyMBFpRFZo84Fev6'
-secret_key = 'QDMSJu4XwfkRdUDiZf7PV8UhAlWQXhJAi3Y3neffHdpgsPZaZH18umo963fLVgkU'
+api_key = 'xxxxx'
+secret_key = 'XXXXXX'
 
 # Initialize the Binance client
 client = Client(api_key, secret_key)
