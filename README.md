@@ -1,0 +1,1 @@
+This file is a bot which will buy any specific coin at any specific time of the day and sell at any specific time of the same day from Binance. Can also specify take profits and stop losses. Need setting up in the system. Not ready to use code.
